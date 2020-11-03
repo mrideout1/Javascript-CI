@@ -1,8 +1,8 @@
-# Add configuration here!
 version: 2.1
-orbs:                      
+orbs:
   node: circleci/node@3.0.0
 workflows:
   node-tests:
     jobs:
       - node/test
+
